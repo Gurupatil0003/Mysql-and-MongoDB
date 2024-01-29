@@ -24,4 +24,107 @@
 
 *Replication and Clustering: MySQL supports replication, allowing data to be copied to multiple servers for fault tolerance and performance. It also supports clustering for high availability and load balancing.*
 
+
+# open your Mysql Workbench
+-Below you will find 
+-Username
+-Server Address
+-Port Number
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20084930.png"/>
+
+#Here In below Screenshot U can see My tables
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20084957.png"/>
+#Here In below Screenshot U can see My tables
+
+#Create your Own Database 
+-you can create Database Using Below Code
+```python
+
+Create database Sys;
+
+```
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085059.png"/>
+
+- Successfully created your Datbase
+
+# View Ur Database
+
+-Using Below Code You can View Your Created Databases
+
+```python
+
+SHOW DATABASES;
+
+```
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085219.png"/>
+
+# Open Vscode 
+- Click on Extentions
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20101955.png"/>
+
+# In vscode Extention Search As Sqltools   
+-Click On
+-Go For Installation
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085425.png"/>
+
+# In vscode You will find this Symbol Click On it
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/header-hero.png"/>
+
+# After Click You will See the connection As of Now Installation Is successfully Completed
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085457.png"/>
+
+# In vscode Extention Search As Sqltools MYSQL/ MariaDB/TiDB driver 
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085620.png"/>
+
+-- Good to go All Installation Is Done
+
+# Setups 
+-Click on That Symbol
+-Add Connection
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20103328.png"/>
+
+# Click On Mysql
+
+<img width="100%" src=""/>
+
+# Connection Assistance
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20103500.png"/>
+
+# Copy your below nessceary Information Form Mysql Workbench
+- Here U can See the samples
+1. Sample Coonection--2
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20103920.png"/>
+
+2.Sample connection--2
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085808.png"/>
+
+- Finally Save your connection
+
+# Create your Sql File 
+- For Creating sql file Below you will get image throgh you willl get this 
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20105334.png"/>
+
+# Start Writing Your Query 
+-simmple quary to show your Databases
+
+```python
+SHOW DATABASES
+```
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20090040.png"/>
+
+
+# THE END   Thank You
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20090040.png"/>
+
+# See You Again
+
+
+<img width="100%" src="https://in.images.search.yahoo.com/search/images;_ylt=AwrKDpsOOLdlkXURMhm9HAx.;_ylu=c2VjA3NlYXJjaARzbGsDYnV0dG9u;_ylc=X1MDMjExNDcyMzAwNQRfcgMyBGZyA21jYWZlZQRmcjIDcDpzLHY6aSxtOnNiLXRvcARncHJpZANIZ09Gc0dVQlRNV1JETXZFV3NBdy5BBG5fcnNsdAMwBG5fc3VnZwMwBG9yaWdpbgNpbi5pbWFnZXMuc2VhcmNoLnlhaG9vLmNvbQRwb3MDMARwcXN0cgMEcHFzdHJsAzAEcXN0cmwDMzkEcXVlcnkDYnllJTIwYnllJTIwc3ltYm9sJTIwc3B5JTIwZmFtaWx5JTIwZ2lmJTIwd2FsbHBhcGVyBHRfc3RtcAMxNzA2NTA2Mjc0?p=bye+bye+symbol+spy+family+gif+wallpaper&fr=mcafee&fr2=p%3As%2Cv%3Ai%2Cm%3Asb-top&ei=UTF-8&x=wrt&type=E211IN714G0#id=7&iurl=http%3A%2F%2Fpa1.narvii.com%2F5656%2F4419a0e14e49e2d0bd8cd0e99472f0626911cc67_hq.gif&action=click"/>
