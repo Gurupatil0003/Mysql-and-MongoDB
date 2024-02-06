@@ -35,7 +35,8 @@
 #Here In below Screenshot U can see My tables
 
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20084957.png"/>
-#Here In below Screenshot U can see My tables
+
+# Here In below Screenshot U can see My databases and Tables
 
 #Create your Own Database 
 -you can create Database Using Below Code
