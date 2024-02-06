@@ -1,6 +1,4 @@
-# Mysql -- Vscode Coonection
-
-## OOP/OOPs (object oriented programming system) 
+# Mysql Workbench-- Vscode Coonection
 
 *MySQL is an open-source relational database management system (RDBMS) that is widely used for managing and manipulating structured data. It is one of the most popular databases in the world and is a key component of the LAMP (Linux, Apache, MySQL, PHP/Python/Perl) and MERN (MongoDB, Express.js, React, Node.js) stacks, which are commonly used for web development.*
 
@@ -30,9 +28,12 @@
 -Username
 -Server Address
 -Port Number
+
+
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20084930.png"/>
 
 #Here In below Screenshot U can see My tables
+
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20084957.png"/>
 #Here In below Screenshot U can see My tables
 
