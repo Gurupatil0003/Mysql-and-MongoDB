@@ -42,7 +42,7 @@
 -you can create Database Using Below Code
 ```python
 
-Create database Sys;
+Create database patils;
 
 ```
 
@@ -57,13 +57,33 @@ Create database Sys;
 SHOW DATABASES;
 
 ```
+```python
+
+Create database patils;
+```
+
+#### Use ur Create Table
+```python
+
+USE patils;
+```python
+
+#### Create the "routess" table
+
+CREATE TABLE routess (
+    name VARCHAR(255),
+    age INT
+);
+
+
+```
+
 
 
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103130.png"/>
 
 
 
-# After Click You will See the connection As of Now Installation Is successfully Completed
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_C
 
 
