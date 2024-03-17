@@ -59,10 +59,9 @@ SHOW DATABASES;
 ```
 
 
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103108.png"/>
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103130.png"/>
 
 
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/header-hero.png"/>
 
 # After Click You will See the connection As of Now Installation Is successfully Completed
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_C
@@ -70,7 +69,6 @@ SHOW DATABASES;
 
 # THE END and Thank You
 
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20090040.png"/>
 
 # See You Again
 
