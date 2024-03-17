@@ -79,8 +79,48 @@ CREATE TABLE routess (
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103108.png"/>
 
 
-### Open Ur vscode .... After Completing code below u can see that output
+### Open Ur vscode .... Below u can see the code
 
+```python
+import mysql.connector
+
+# Connect to MySQL
+conn = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="mgpatils",
+    database="patils"
+)
+
+if conn.is_connected():
+    print("Connected to MySQL database")
+    cursor = conn.cursor()
+
+    # Insert data into table
+    sql_insert = "INSERT INTO routess (name, age) VALUES (%s, %s)"
+    values = [("John", 30), ("Alice", 25)]
+    cursor.executemany(sql_insert, values)
+    conn.commit()
+    print(cursor.rowcount, "records inserted.")
+
+    # Retrieve data from table
+    cursor.execute("SELECT * FROM routess")
+
+    rows = cursor.fetchall()
+    print("Fetched data:")
+    for row in rows:
+        print(row)
+
+    # Close cursor and connection
+    cursor.close()
+    conn.close()
+    print("MySQL connection closed.")
+else:
+    print("Failed to connect to MySQL database")
+
+
+
+```
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103130.png"/>
 
 
