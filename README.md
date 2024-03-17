@@ -34,7 +34,7 @@
 
 #Here In below Screenshot U can see My tables
 
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20084957.png"/>
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103108.png"/>
 
 # Here In below Screenshot U can see My databases and Tables
 
@@ -45,7 +45,6 @@
 Create database Sys;
 
 ```
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085059.png"/>
 
 - Successfully created your Datbase
 
@@ -59,67 +58,14 @@ SHOW DATABASES;
 
 ```
 
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085219.png"/>
 
-# Open Vscode 
-- Click on Extentions
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103108.png"/>
 
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20101955.png"/>
-
-# In vscode Extention Search As Sqltools   
--Click On
--Go For Installation
-
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085425.png"/>
-
-# In vscode You will find this Symbol Click On it
 
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/header-hero.png"/>
 
 # After Click You will See the connection As of Now Installation Is successfully Completed
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085457.png"/>
-
-# In vscode Extention Search As Sqltools MYSQL/ MariaDB/TiDB driver 
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085620.png"/>
-
--- Good to go All Installation Is Done
-
-# Setups 
--Click on That Symbol
--Add Connection
-
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20103328.png"/>
-
-# Click On Mysql
-
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20103420.png"/>
-
-# Connection Assistance
-
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20103500.png"/>
-
-# Copy your below nessceary Information Form Mysql Workbench
-- Here U can See the samples
-1. Sample Coonection--2
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20103920.png"/>
-
-2.Sample connection--2
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20085808.png"/>
-
-- Finally Save your connection
-
-# Create your Sql File 
-- For Creating sql file Below you will get image throgh you willl get this 
-
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202024-01-29%20105334.png"/>
-
-# Start Writing Your Query 
-*-simmple quary to show your Databases*
-
-```python
-SHOW DATABASES
-```
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Mysql%2C%20MangoDB%20vs%20Vscode/Screenshot%202023-12-22%20090040.png"/>
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_C
 
 
 # THE END and Thank You
