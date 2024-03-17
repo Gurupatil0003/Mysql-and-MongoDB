@@ -34,7 +34,6 @@
 
 #Here In below Screenshot U can see My tables
 
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103108.png"/>
 
 # Here In below Screenshot U can see My databases and Tables
 
@@ -77,14 +76,14 @@ CREATE TABLE routess (
 
 
 ```
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103108.png"/>
 
 
+### Open Ur vscode .... After Completing code below u can see that output
 
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103130.png"/>
 
 
-
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_C
 
 
 # THE END and Thank You
