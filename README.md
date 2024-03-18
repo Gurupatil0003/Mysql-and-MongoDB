@@ -161,7 +161,12 @@ MongoDB is a popular open-source, NoSQL database management system that stores d
 #### Lets Start with installation
 [Download MongoDB Compass](https://www.mongodb.com/try/download/compass)
 
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-18%20232009.png"/>
 
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-18%20232052.png"/>
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-18%20232542.png"/>
 
 ### Manogodb -- CRUD operation
 ```python
