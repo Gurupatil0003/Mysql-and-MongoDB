@@ -85,6 +85,10 @@ CREATE TABLE routess (
 import mysql.connector
 
 # Connect to MySQL
+
+   import mysql.connector
+
+# Connect to MySQL
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
@@ -96,20 +100,45 @@ if conn.is_connected():
     print("Connected to MySQL database")
     cursor = conn.cursor()
 
-    # Insert data into table
-    sql_insert = "INSERT INTO routess (name, age) VALUES (%s, %s)"
-    values = [("John", 30), ("Alice", 25)]
-    cursor.executemany(sql_insert, values)
-    conn.commit()
-    print(cursor.rowcount, "records inserted.")
+    # Create function to insert data
+    def insert_data(name, age):
+        sql_insert = "INSERT INTO routess (name, age) VALUES (%s, %s)"
+        values = (name, age)
+        cursor.execute(sql_insert, values)
+        conn.commit()
+        print(cursor.rowcount, "record inserted.")
 
-    # Retrieve data from table
-    cursor.execute("SELECT * FROM routess")
+    # Read function to retrieve data
+    def fetch_data():
+        cursor.execute("SELECT * FROM routess")
+        rows = cursor.fetchall()
+        print("Fetched data:")
+        for row in rows:
+            print(row)
 
-    rows = cursor.fetchall()
-    print("Fetched data:")
-    for row in rows:
-        print(row)
+    # Update function to modify existing data
+    def update_data(name, new_age):
+        sql_update = "UPDATE routess SET age = %s WHERE name = %s"
+        values = (new_age, name)
+        cursor.execute(sql_update, values)
+        conn.commit()
+        print(cursor.rowcount, "record(s) updated.")
+
+    # Delete function to remove data
+    def delete_data(name):
+        sql_delete = "DELETE FROM routess WHERE name = %s"
+        values = (name,)
+        cursor.execute(sql_delete, values)
+        conn.commit()
+        print(cursor.rowcount, "record(s) deleted.")
+
+    # Testing CRUD operations
+    insert_data("Bob", 35)  # Create
+    fetch_data()            # Read
+    update_data("John", 40) # Update
+    fetch_data()            # Read
+    delete_data("Alice")    # Delete
+    fetch_data()            # Read
 
     # Close cursor and connection
     cursor.close()
@@ -117,6 +146,7 @@ if conn.is_connected():
     print("MySQL connection closed.")
 else:
     print("Failed to connect to MySQL database")
+
 
 
 
