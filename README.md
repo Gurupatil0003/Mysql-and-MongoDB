@@ -155,7 +155,61 @@ else:
 
 
 
+# MongoDB --CRUD operation
 
+```python
+import pymongo
+
+# Connect to MongoDB
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = client["Guru"]
+collection = db["Guru"]
+
+# Create (Insert) Operation
+def create_document(data):
+    result = collection.insert_one(data)
+    print("Inserted document id:", result.inserted_id)
+
+# Read (Retrieve) Operation
+def read_documents():
+    cursor = collection.find()
+    print("Fetched data:")
+    for document in cursor:
+        print(document)
+
+# Update Operation
+def update_document(filter, update):
+    result = db.command("update", "mycollection", updates=[{"q": filter, "u": update}])
+    print(result)
+
+# Delete Operation
+def delete_document(filter):
+    result = db.command("delete", "mycollection", deletes=[{"q": filter, "limit": 1}])
+    print(result)
+
+# Example usage
+if __name__ == "__main__":
+    # Create document
+    create_document({"name": "John", "age": 30})
+
+    # Read documents
+    read_documents()
+
+    # Update document
+    update_document({"name": "John"}, {"$set": {"age": 35}})
+
+    # Read documents after update
+    read_documents()
+
+    # Delete document
+    delete_document({"name": "John"})
+
+    # Read documents after deletion
+    read_documents()
+
+# Close MongoDB connection
+client.close()
+```
 # THE END and Thank You
 
 
