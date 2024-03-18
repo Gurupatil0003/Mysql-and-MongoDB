@@ -168,6 +168,7 @@ MongoDB is a popular open-source, NoSQL database management system that stores d
 
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-18%20232009.png"/>
 
+### Click on Create Database 
 
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-18%20232052.png"/>
 
@@ -229,7 +230,8 @@ client.close()
 
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql-and-MongoDB/blob/main/Screenshot%202024-03-19%20000152.png"/>
 
-### Here same code with Immage Data
+### Here same code with Image Data
+
 ```python
 import pymongo
 import base64
@@ -300,6 +302,8 @@ if __name__ == "__main__":
 client.close()
 
 ```
+
+### Finall out Come
 
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-18%20232542.png"/>
 
