@@ -151,7 +151,12 @@ else:
 
 
 ```
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-17%20103130.png"/>
+
+### Output in VScode terminal
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql-and-MongoDB/blob/main/Screenshot%202024-03-18%20233925.png"/>
+
+### Mysql Workbench output
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql-and-MongoDB/blob/main/Screenshot%202024-03-18%20234211.png"/>
 
 
 
