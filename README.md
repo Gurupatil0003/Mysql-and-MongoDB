@@ -171,7 +171,6 @@ MongoDB is a popular open-source, NoSQL database management system that stores d
 
 <img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-18%20232052.png"/>
 
-<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-18%20232542.png"/>
 
 ### Manogodb -- CRUD operation
 ```python
@@ -227,6 +226,9 @@ if __name__ == "__main__":
 # Close MongoDB connection
 client.close()
 ```
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql-and-MongoDB/blob/main/Screenshot%202024-03-19%20000152.png"/>
+
 ### Here same code with Immage Data
 ```python
 import pymongo
@@ -298,6 +300,9 @@ if __name__ == "__main__":
 client.close()
 
 ```
+
+<img width="100%" src="https://github.com/Gurupatil0003/Mysql_vs_Vscode_Connect/blob/main/Screenshot%202024-03-18%20232542.png"/>
+
 # THE END and Thank You
 
 
