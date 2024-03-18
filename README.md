@@ -155,8 +155,15 @@ else:
 
 
 
-# MongoDB --CRUD operation
+# MongoDB 
+MongoDB is a popular open-source, NoSQL database management system that stores data in flexible, JSON-like documents. It is designed for scalability, performance, and high availability. MongoDB uses a document-oriented data model, which means data is stored in JSON-like documents instead of rows and columns like traditional relational databases.
 
+#### Lets Start with installation
+[Download MongoDB Compass](https://www.mongodb.com/try/download/compass)
+
+
+
+### Manogodb -- CRUD operation
 ```python
 import pymongo
 
@@ -209,6 +216,77 @@ if __name__ == "__main__":
 
 # Close MongoDB connection
 client.close()
+```
+### Here same code with Immage Data
+```python
+import pymongo
+import base64
+
+# Connect to MongoDB
+client = pymongo.MongoClient("mongodb://localhost:27017/")
+db = client["Guru"]
+collection = db["Guru"]
+
+# Create (Insert) Operation
+def create_document(data):
+    result = collection.insert_one(data)
+    print("Inserted document id:", result.inserted_id)
+
+# Read (Retrieve) Operation
+def read_documents():
+    cursor = collection.find()
+    print("Fetched data:")
+    for document in cursor:
+        print(document)
+
+# Update Operation
+def update_document(filter, update):
+    result = collection.update_one(filter, update)
+    print(result.modified_count, "document(s) updated.")
+
+# Delete Operation
+def delete_document(filter):
+    result = collection.delete_one(filter)
+    print(result.deleted_count, "document(s) deleted.")
+
+# Function to insert image data
+def insert_image(image_path):
+    with open(image_path, "rb") as image_file:
+        encoded_image = base64.b64encode(image_file.read()).decode('utf-8')
+    return encoded_image
+
+# Example usage
+if __name__ == "__main__":
+    # Create documents
+    image_path = "C:\\Users\\LENOVO\\hh\\immg.jpeg"  # Path to your image file
+    image_data = insert_image(image_path)
+    
+    create_document({
+        "name": "John",
+        "rollnumber": 12345,
+        "div": "A",
+        "semester": 1,
+        "image": image_data
+    })
+
+    # Read documents
+    read_documents()
+
+    # Update document
+    update_document({"name": "John"}, {"$set": {"semester": 2}})
+
+    # Read documents after update
+    read_documents()
+
+    # Delete document
+    delete_document({"name": "John"})
+
+    # Read documents after deletion
+    read_documents()
+
+# Close MongoDB connection
+client.close()
+
 ```
 # THE END and Thank You
 
