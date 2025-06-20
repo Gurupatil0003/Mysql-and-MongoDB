@@ -278,7 +278,16 @@ All the above components are **stored on disk** and managed by the **RDBMS softw
 
 ---
 
+## 🏗️ Types of DBMS Architecture
 
+Let’s have a look at the most common types of DBMS architectures:
+
+- 1 Tier Architecture (Single Tier Architecture)
+- 2 Tier Architecture
+- 3 Tier Architecture
+
+
+![image](https://github.com/user-attachments/assets/e3d93b13-b3f6-4fe2-800e-0318a0bdc81d)
 
 
 
