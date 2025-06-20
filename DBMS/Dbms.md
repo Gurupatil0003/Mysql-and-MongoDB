@@ -290,4 +290,192 @@ Let’s have a look at the most common types of DBMS architectures:
 ![image](https://github.com/user-attachments/assets/e3d93b13-b3f6-4fe2-800e-0318a0bdc81d)
 
 
+## 🧩 1-Tier Architecture (Single Tier Architecture)
+
+![image](https://github.com/user-attachments/assets/8a8927ad-740b-4b74-87b1-07c9972867b2)
+
+The **1-tier architecture** is the simplest form of DBMS architecture, where all the components — the database, the user interface, and the application — reside on a **single system**.
+
+This means:
+- The **end user directly interacts** with the database.
+- All processing and data manipulation happens **locally** on the same server or machine.
+- No network is required to access or execute database operations.
+
+It’s often referred to as a **Local Database System**.
+
+---
+
+### 🛠️ When to Use 1-Tier Architecture?
+
+A 1-tier architecture is best suited when:
+- 🔁 The data is **not frequently updated**.
+- 👤 The database has **a single or limited number of users**.
+- ⚙️ The goal is **simple access/editing** of data for **application development** or testing.
+
+---
+
+### ✅ Advantages of 1-Tier Architecture
+
+- **🧱 Simplicity:**  
+  Easy to set up and maintain since everything runs on a single machine.
+
+- **💰 Low Cost:**  
+  No need for additional infrastructure or licensing; perfect for individual developers or small-scale solutions.
+
+- **⚡ Fast Deployment:**  
+  Quick to install and use — ideal for prototypes, learning, or proof-of-concept projects.
+
+---
+
+### 📌 Use Case Examples
+
+- Personal finance tracking apps
+- Small standalone desktop applications
+- Student database projects
+- Local testing or learning environments
+
+---
+
+**Note:**  
+While 1-tier architecture is excellent for individual or development purposes, it’s **not scalable or secure enough** for enterprise applications involving multiple users or needing networked access.
+
+
+## 🖥️ 2-Tier Architecture in DBMS
+
+![image](https://github.com/user-attachments/assets/a84696a5-6499-4175-a451-53882d6da558)
+
+The **2-tier architecture** is a **client-server model** in which:
+
+- The **client** is responsible for the **user interface** and some **application logic**.
+- The **server** handles **data storage**, **queries**, and **business logic**.
+
+In this architecture, the **client communicates directly** with the database server over a network to send requests and receive responses.
+
+---
+
+### 🧪 Examples of 2-Tier Architecture
+
+Here are a few real-world examples of 2-tier architecture:
+
+1. **🗂️ File-Server Architecture**  
+   Clients access a shared file server for storing and retrieving data.
+
+2. **🔌 Client-Server Architecture**  
+   Clients send queries directly to the database server.
+
+3. **💻 Terminal Services Architecture**  
+   Clients connect to a terminal server that handles communication with a database.
+
+4. **🌐 Web-Based Architecture**  
+   A web browser (client) talks directly to a web server that interfaces with a database.
+
+5. **📞 Remote Procedure Call (RPC) Architecture**  
+   The client invokes database operations using remote procedure calls directly.
+
+---
+
+### ✅ Advantages of 2-Tier Architecture
+
+- **🧱 Simplicity**  
+  Easy to design and understand due to only two components: client and server.
+
+- **💰 Cost Effective**  
+  Lower implementation and maintenance costs compared to 3-tier/multi-tier systems.
+
+- **🚀 Ease of Deployment**  
+  Client software can be installed on individual machines, simplifying updates and rollout.
+
+- **⚡ Direct Access to Database**  
+  Faster data operations as the client communicates directly with the server.
+
+- **🧮 Client-Side Processing**  
+  Some business logic can be offloaded to the client, improving performance.
+
+- **📈 Scalability**  
+  Easily scaled by adding more clients or upgrading the server hardware.
+
+- **🧩 Independence**  
+  Clients and servers can be developed, tested, and deployed separately.
+
+---
+
+### 📌 Use Case Scenarios
+
+- Internal company applications with moderate users
+- Small to mid-scale CRM or ERP systems
+- LAN-based school or college administration systems
+- Local desktop applications connected to central DB
+
+---
+
+**Note:**  
+While 2-tier architecture works well for small to medium-sized systems, it may face issues like **tight coupling**, **security risks**, and **maintenance challenges** as the system grows.
+
+
+## 🏗️ 3-Tier Architecture in DBMS
+
+![image](https://github.com/user-attachments/assets/d2fa71e1-2021-4161-84aa-451c283e1653)
+
+In **3-tier architecture**, a **middle layer (application server)** exists between the client and the database server. This design ensures that the **client cannot interact with the database directly**.
+
+### 📶 How it Works
+
+- The **client** communicates only with the **application server**.
+- The **application server** processes the request, applies business logic, and communicates with the **database server**.
+- The **database server** handles data operations and returns responses through the application server.
+
+This architecture is common in **large-scale web applications**, where modularity, scalability, and security are critical.
+
+---
+
+### 🧱 Three-Level Architecture of DBMS
+
+3-tier architecture breaks down the system into **three distinct layers**:
+
+1. **📦 Physical Level (Internal Schema)**  
+   - Specifies **how data is stored** physically in memory or secondary storage devices (disks, tapes, etc.).
+   - Users have **no visibility** of where or how data is physically stored.
+
+2. **🧠 Conceptual Level (Logical Schema)**  
+   - Represents the **logical structure** of the entire database (tables, relationships, constraints).
+   - Defines **what data is stored** and **how it's interrelated**.
+   - Abstracts away storage details from users.
+
+3. **👁️ External Level (View Schema)**  
+   - Provides **customized views** of the database for different users or applications.
+   - Offers **data abstraction** by hiding unnecessary details from the user.
+   - Each user may interact with a **different view** of the same database.
+
+---
+
+### ✅ Advantages of 3-Tier Architecture
+
+- **📈 Scalability**  
+  Easily scaled by adding more application or database servers.
+
+- **🔐 Increased Security**  
+  Since the database is not directly exposed, the architecture supports better access control and encryption practices.
+
+- **🛠️ Improved Maintenance**  
+  Each layer can be updated or maintained **independently** without affecting other layers.
+
+- **♻️ Reusability**  
+  Business logic written in the middle tier can be **reused across multiple clients or applications**.
+
+- **⚙️ Separation of Concerns**  
+  Better organization and management of code—UI, business logic, and data are separated.
+
+---
+
+### 📌 Use Case Scenarios
+
+- Large-scale e-commerce websites
+- Banking systems and enterprise applications
+- Cloud-based services and APIs
+- Educational portals with multiple user roles
+
+---
+
+**Note:**  
+While more complex than 1-tier or 2-tier designs, the **3-tier architecture** is the most widely used in modern software development due to its **modularity, maintainability, and robust performance**.
 
