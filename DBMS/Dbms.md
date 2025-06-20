@@ -181,3 +181,104 @@ Databases come in different forms, optimized for specific data models and use ca
 
 > DBMSs are everywhere—from your online purchases to medical reports. Each type has unique strengths tailored for different data needs.
 
+
+# 📊 What is Database System Architecture?
+
+**Database System Architecture** refers to the comprehensive blueprint and framework that defines how a Database Management System (DBMS) operates. It includes the **hardware, software, data, and human elements** involved in storing, managing, and retrieving data efficiently.
+
+---
+
+## 🔧 Key Functions of Database Architecture
+- Defines **how data is stored, accessed, and managed**.
+- Includes both **conceptual (design)** and **physical (implementation)** components.
+- Ensures **performance**, **scalability**, **security**, and **data integrity**.
+
+---
+
+## 🧱 Types of Database Architectures
+
+There are multiple architectures, and the selection depends on:
+- Size of the database
+- Number of users
+- Type of applications
+- Required security and scalability
+
+| Architecture | Description |
+|--------------|-------------|
+| **Single-Tier (1-Tier)** | All components (UI, logic, database) on a single system |
+| **Two-Tier (2-Tier)** | Client directly interacts with the database server |
+| **Three-Tier (3-Tier)** | Separation of Presentation, Application, and Data layers |
+| **N-Tier** | Multi-layered architecture for high scalability, often used in large enterprise systems |
+
+---
+
+## 🧠 Logical vs Physical Database Models
+
+### 🔹 Logical Model
+- Represents **what data is stored** and **how it's related**.
+- Independent of physical storage.
+- Describes data using **entities, attributes, and relationships**.
+- Often visualized using **Entity-Relationship Diagrams (ERD)**.
+
+### 🔹 Physical Model
+- Describes **how data is stored on disk**.
+- Includes **storage structures, indexes, access paths**, and DBMS internals.
+- Focuses on **optimization and hardware-level implementation**.
+
+---
+
+## 🧱 Database Architecture in RDBMS
+
+Relational Database Management Systems (RDBMS) are based on the **relational model**, which organizes data into **tables** consisting of **rows (records)** and **columns (attributes)**.
+
+---
+
+### 🔑 Core Components of RDBMS Architecture
+
+- **📂 Database**:  
+  A collection of related data stored systematically in multiple tables.
+
+- **📋 Tables**:  
+  Structured collections of **rows** and **columns** where each row is a record and each column is an attribute.
+
+- **🔠 Attributes (Columns)**:  
+  Represent specific properties or characteristics of the data, like `Name`, `Age`, `Email`, etc.
+
+- **📄 Records (Rows)**:  
+  Represent individual entries in the table. Each record holds data for every attribute.
+
+- **🔐 Primary Key**:  
+  A unique identifier for each record in a table. It ensures that no duplicate records exist.
+
+- **🔗 Foreign Key**:  
+  A field (or combination of fields) used to establish a **relationship** between two tables by referencing the primary key of another table.
+
+- **⚡ Indexes**:  
+  Special data structures that **speed up data retrieval** operations by enabling fast lookups.
+
+- **🗣️ Query Language (SQL)**:  
+  Structured Query Language is used for **retrieving, inserting, updating, and deleting data**.  
+  Examples: `SELECT`, `INSERT`, `UPDATE`, `DELETE`
+
+- **🔁 Transaction Management**:  
+  Ensures **data consistency, atomicity, isolation, and durability** by handling operations as a **single unit of work**.  
+  Managed using **ACID** properties.
+
+---
+
+### 💾 Storage & Management
+
+All the above components are **stored on disk** and managed by the **RDBMS software**, which handles:
+
+- Data addition and deletion  
+- Updates and modifications  
+- Query processing  
+- Integrity constraints  
+- Access control and concurrency
+
+---
+
+
+
+
+
