@@ -112,7 +112,7 @@ Optimized for **fast access and space saving**.
     │   Internal Level   │  ← Physical storage (Files, Indexes)
     └────────────────────┘
 ```
-
+```
 # 🖥️ Client-Server Architecture in Database Systems — A Clear & Simple Breakdown
 
 Imagine a restaurant setup 🍽️:
