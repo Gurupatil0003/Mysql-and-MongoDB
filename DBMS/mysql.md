@@ -67,3 +67,32 @@ SELECT * FROM users ORDER BY age ASC;
 ```python
 SELECT COUNT(*) FROM users;
 ```
+
+```python
+
+
+CREATE TABLE classes (
+  class_id INT PRIMARY KEY,
+  class_name VARCHAR(50)
+);
+
+
+CREATE TABLE students (
+  student_id INT PRIMARY KEY,
+  student_name VARCHAR(50),
+  class_id INT,
+  FOREIGN KEY (class_id) REFERENCES classes(class_id)
+);
+
+-- Insert classes
+INSERT INTO classes VALUES (1, 'Science'), (2, 'Mathematics'), (3, 'History');
+
+-- Insert students (valid class_id)
+INSERT INTO students VALUES (101, 'Amit', 1);  -- Science
+INSERT INTO students VALUES (102, 'Sara', 2);  -- Mathematics
+
+
+select *from classes;
+
+select *from students;
+```
