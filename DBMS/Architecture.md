@@ -234,3 +234,85 @@ They work together via a **network** (LAN or Internet).
 
 Client-Server architecture is the **backbone of modern database applications** — enabling remote access, scalability, and centralized management. Whether it's a shopping website, banking app, or school portal — this model runs the show behind the scenes.
 
+
+# 📘 DBMS Architecture Types – Explained with Flowcharts
+
+This document explains the **three main types of DBMS architectures** along with flowcharts and examples.
+
+---
+
+## 🔹 1. Single-Tier Architecture
+
+### ✅ Explanation:
+In this architecture, the **user directly interacts with the database**. There is no separation between user interface, application logic, and data storage.
+
+### 💡 Example:
+- MS Access running on your local system.
+- SQLite database in a mobile or desktop application.
+
+### 🧠 Flowchart:
+```python
+User (Developer/End-user)
+        |
+        v
+     Database (Same machine)
+```
+
+
+### 📌 Key Points:
+- Easy for development and testing.
+- Suitable for standalone or small-scale applications.
+- Not ideal for multi-user or distributed environments.
+
+---
+
+## 🔹 2. Two-Tier Architecture
+
+### ✅ Explanation:
+This architecture separates the **client** (UI + logic) from the **database server**. The client sends SQL queries and gets results directly.
+
+### 💡 Example:
+- Java or Python desktop app connecting to MySQL/Oracle DB server.
+
+### 🧠 Flowchart:
+
+```python
+Client Application (User Interface)
+        |
+        v
+   Database Server (Stores Data)
+
+
+```
+
+
+### 📌 Key Points:
+- Suitable for LAN-based applications.
+- Better security and performance than 1-tier.
+- Not ideal for high user traffic or web-based applications.
+
+---
+
+## 🔹 3. Three-Tier Architecture
+
+### ✅ Explanation:
+Introduces a **middle layer** (application server) that handles business logic. The client interacts with the application server, which then communicates with the database.
+
+### 💡 Example:
+- Web application: Browser → Django/Flask Server → PostgreSQL DB
+
+### 🧠 Flowchart:
+
+```python
+
+Client (Browser/Mobile App)
+        |
+        v
+Application Server (Flask/Django, handles logic)
+        |
+        v
+  Database Server (Stores data)
+
+
+
+```
